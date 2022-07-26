@@ -1,14 +1,15 @@
 {
   "name": "p6-projet",
   "version": "1.0.0",
-  "description": "",
   "main": "server.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
+    "all": "0.0.0",
     "bcrypt": "^5.0.1",
     "body-parser": "^1.20.0",
     "cors": "^2.8.5",
@@ -17,5 +18,15 @@
     "mongoose": "^6.4.0",
     "mongoose-unique-validator": "^3.1.0",
     "multer": "^1.4.5-lts.1"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Icanos-1337/p6.git"
+  },
+  "bugs": {
+    "url": "https://github.com/Icanos-1337/p6/issues"
+  },
+  "homepage": "https://github.com/Icanos-1337/p6#readme",
+  "description": ""
 }
