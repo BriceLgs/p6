@@ -8,6 +8,7 @@ exports.signup = (req, res, next ) => {
   if (req.body.password.length < 6) {
     res.status(400).json({ message: 'Mot de passe trop court!'})
 }
+
     bcrypt.hash(req.body.password, 10)
     .then(hash => {
         const user = new User({
